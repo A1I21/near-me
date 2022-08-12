@@ -1,0 +1,82 @@
+.banner_section {
+    background: url(../../assets/header-image.svg);
+    background-repeat: no-repeat;
+    /* height: 93vh; */
+    width: 100%;
+    background-size: cover;
+    padding: 80px 0;
+    background-attachment: fixed;
+}
+
+
+.search_input {
+   
+    outline: none !important;
+    border: none !important;
+}
+
+.search_input:focus {
+   
+    outline: none !important;
+    border: none !important;
+}
+
+
+
+.banner_title {
+    font-weight: 400;
+    font-size: 44px;
+    color: rgba(7, 2, 12, 0.662);
+}
+
+.banner_subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.372);
+}
+
+.search_btn {
+    background: #f91942 !important;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.list_area .item_list {
+    margin: 15px 0px;
+    border-radius: 5px;
+    background: rgb(255 255 255 / 55%) !important;
+    transition: height 200ms;
+    height: 63px;
+    overflow: hidden;
+
+}
+
+.list_area .item_list .item_link {
+    text-decoration: none;
+    color: #292627 !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list_area .item_list .collapse_btn {
+    background: none;
+    border: none;
+}
+.like-btn{
+    display: flex;
+    justify-content: end;
+   background-color: #f91942;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+.likedd-btn{
+    fill: #f91942;
+    border: #f91942;
+}
+.heart.liked path {
+    fill: #378FE9;
+    color: #ed4956;
+  }

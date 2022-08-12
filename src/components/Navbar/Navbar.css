@@ -1,0 +1,29 @@
+.nav_btn {
+
+    padding: 10px 30px !important;
+    border-radius: 25px;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.nav_btn:hover {
+    background: rgba(249, 25, 66, .06) !important;
+    color: #FA6800 !important;
+}
+
+.nav_active {
+    background: rgba(249, 25, 66, .06) !important;
+    color: #FA6800 !important;
+}
+
+.profile_nav{
+    height: 15px;
+    width: 15px;
+}
+.nav-logo{
+    width: 190px;
+    height: 110px;
+}
+.navbar-brand{
+    width: 300px;
+}
