@@ -238,7 +238,7 @@ export default function SearchInput({ setData }: { setData: any }) {
 											<option value={'Burger'}>Burger</option>
 											<option value={'Cafe'}>Cafe</option>
 											<option value={'Burger'}>Restaurants</option>
-											<option value={'Cafe'}>Parks</option>
+											<option value={'Park'}>Parks</option>
 										</select>
 									</div>
 								</div>
